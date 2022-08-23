@@ -11,7 +11,7 @@
 
 # Link to use the project
 
-[You can use the stopwatch by clicking here](https://githubstopwatcher-xi.vercel.app/). <br/><br/>
+[You can use the stopwatch by clicking here](https://stopwatcher-xi.vercel.app/). <br/><br/>
 
 # How to use
 

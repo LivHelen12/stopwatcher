@@ -1,15 +1,14 @@
-var hour = 0;
-var minute = 0;
-var second = 0;
-var interval;
+let hour = 0,
+  minute = 0,
+  second = 0,
+  interval;
 
-var appendHour = document.getElementById("hour");
-var appendMinute = document.getElementById("min");
-var appendSecond = document.getElementById("sec");
-
-var btnStart = document.getElementById("start");
-var btnStop = document.getElementById("stop");
-var btnReset = document.getElementById("reset");
+let appendHour = document.getElementById("hour"),
+  appendMinute = document.getElementById("min"),
+  appendSecond = document.getElementById("sec"),
+  btnStart = document.getElementById("start"),
+  btnStop = document.getElementById("stop"),
+  btnReset = document.getElementById("reset");
 
 function timer() {
   second++;
@@ -24,9 +23,9 @@ function timer() {
     hour++;
   }
 
-  appendHour.innerText = returnTime(hour);
-  appendMinute.innerText = returnTime(minute);
-  appendSecond.innerText = returnTime(second);
+  appendHour.innerHTML = formatTime(hour);
+  appendMinute.innerHTML = formatTime(minute);
+  appendSecond.innerHTML = formatTime(second);
 }
 
 function pause() {
@@ -47,11 +46,11 @@ btnReset.onclick = () => {
   hour = 0;
   minute = 0;
   second = 0;
-  appendHour.innerHTML = returnTime(hour);
-  appendMinute.innerHTML = returnTime(minute);
-  appendSecond.innerHTML = returnTime(second);
+  appendHour.innerHTML = formatTime(hour);
+  appendMinute.innerHTML = formatTime(minute);
+  appendSecond.innerHTML = formatTime(second);
 };
 
-const returnTime = (time) => {
+const formatTime = (time) => {
   return time > 10 ? time : `0${time}`;
 };

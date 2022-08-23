@@ -7,14 +7,12 @@
 
 # Status projects
 
-✅ In progress
+🚧 In progress 🚧
 
 - [x] Start stopwatcher
 - [x] Stop stopwatcher
 - [x] Reset stopwatcher
 - [ ] Responsive
-
-<br/><br/>
 
 # Link to use the project
 

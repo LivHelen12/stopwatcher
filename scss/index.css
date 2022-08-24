@@ -1,12 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
-}
+  box-sizing: 0; }
 
 body {
-  background-color: #6d83e3;
-}
+  background-color: #6d83e3; }
 
 button {
   background: #800080;
@@ -17,12 +15,10 @@ button {
   font-size: 1rem;
   border-radius: 0.375rem;
   border: none;
-  transition: 0.5s ease-in-out;
-}
-button:hover {
-  cursor: pointer;
-  background: #1298aa;
-}
+  transition: 0.5s ease-in-out; }
+  button:hover {
+    cursor: pointer;
+    background: #1298aa; }
 
 .container {
   width: 100vw;
@@ -30,33 +26,60 @@ button:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .wrapper {
-  background-color: #6bd7fa;
   border-radius: 2rem;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.wrapper h1 {
-  font-size: 2rem;
-  font-family: Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.3rem;
-  margin: 4rem;
-}
+  font-family: Arial, Helvetica, sans-serif; }
+  .wrapper h1 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    margin: 4rem; }
 
 .timer {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 4rem;
-  font-size: 2.3rem;
-}
+  font-size: 2.3rem; }
 
 .btn_actions {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 4rem;
-}
+  margin: 4rem; }
+
+/* MEDIA QUERIE TABLET*/
+@media (min-width: 800px) and (max-width: 1000px) {
+  button {
+    height: 2rem;
+    width: 5rem;
+    font-size: 1.3rem; } }
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  .wrapper h1 {
+    font-size: 3rem;
+    letter-spacing: 0.5rem; } }
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  .timer {
+    margin: 6rem;
+    font-size: 3.5rem; } }
+
+/* MEDIA QUERIE PC*/
+@media (min-width: 1000px) {
+  button {
+    height: 2rem;
+    width: 6rem;
+    font-size: 1.6rem; } }
+
+@media (min-width: 1000px) {
+  .wrapper h1 {
+    font-size: 3.5rem; } }
+
+@media (min-width: 1000px) {
+  .timer {
+    margin: 6rem;
+    font-size: 4rem; } }

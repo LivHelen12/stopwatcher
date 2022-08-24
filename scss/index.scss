@@ -1,5 +1,6 @@
 @import "./base/color";
 @import "./base/font";
+@import "./base/media-query";
 
 * {
   margin: 0;
@@ -42,7 +43,6 @@ button {
 }
 
 .wrapper {
-  background-color: $secondary-color;
   border-radius: 2rem;
   font-family: $primary-font;
 
@@ -72,4 +72,55 @@ button {
   align-items: center;
 
   margin: 4rem;
+}
+
+/* MEDIA QUERIE TABLET*/
+
+button {
+  @media (min-width: $tablet_min) and (max-width: $tablet_max) {
+    height: 2rem;
+    width: 5rem;
+    font-size: 1.3rem;
+  }
+}
+
+.wrapper {
+  @media (min-width: $tablet_min) and (max-width: $tablet_max) {
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 0.5rem;
+    }
+  }
+}
+
+.timer {
+  @media (min-width: $tablet_min) and (max-width: $tablet_max) {
+    margin: 6rem;
+    font-size: 3.5rem;
+  }
+}
+
+/* MEDIA QUERIE PC*/
+
+button {
+  @media (min-width: $tablet_max) {
+    height: 2rem;
+    width: 6rem;
+    font-size: 1.6rem;
+  }
+}
+
+.wrapper {
+  @media (min-width: $tablet_max) {
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+}
+
+.timer {
+  @media (min-width: $tablet_max) {
+    margin: 6rem;
+    font-size: 4rem;
+  }
 }

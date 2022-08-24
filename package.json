@@ -2,7 +2,7 @@
   "scripts": {
     "watch:scss": "node-sass -w scss/index.scss scss/index.css"
   },
-  "dependencies": {
+  "devDependencies": {
     "node-sass": "^7.0.1"
   }
 }

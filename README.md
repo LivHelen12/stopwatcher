@@ -7,7 +7,7 @@
 
 # Status projects
 
-🚧 In progress 🚧
+🚧 Done 🚧
 
 - [x] Start stopwatcher
 - [x] Stop stopwatcher

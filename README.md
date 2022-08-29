@@ -5,7 +5,7 @@
 
 ## 🚀 Stopwatch using HTML, SCSS and Vanilla Javascript. <br/><br/>
 
-# Status projects
+# Status project
 
 🚧 Done 🚧
 

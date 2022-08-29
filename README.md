@@ -12,7 +12,7 @@
 - [x] Start stopwatcher
 - [x] Stop stopwatcher
 - [x] Reset stopwatcher
-- [ ] Responsive
+- [x] Responsive
 
 # Link to use the project
 
